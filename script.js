@@ -5,7 +5,6 @@ function username() {
   //create local storage key with value of "a"
   localStorage.setItem('uName', a);
   //automatically take user to page two.html
-  window.alert(a)
   location.href = "two.html"
 }
 function getUser() {
